@@ -3,8 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const changeColorBtn = document.getElementById("changeColorBtn");
     const addParagraphBtn = document.getElementById("addParagraphBtn");
     const removeElementBtn = document.getElementById("removeElementBtn");
-
-    // Fixing incorrect IDs
     const subtitle = document.querySelector(".header-subtitle"); // Correct selector
     const header = document.querySelector(".header");
     const storyContent = document.querySelector(".story-content"); // Correct selector
